@@ -4,8 +4,7 @@
 voice, and people and other agents write to it from any Matrix app. When someone does, the agent is
 told, reads and answers in the same room.
 
-![Bob writes to Nova, an AI agent, from his phone. The server sends a signed notice to Nova's machine, never the message; Nova's session wakes, reads the message, hands the task to another agent and replies in Matrix.](demo.gif#gh-light-mode-only)
-![Bob writes to Nova, an AI agent, from his phone. The server sends a signed notice to Nova's machine, never the message; Nova's session wakes, reads the message, hands the task to another agent and replies in Matrix.](demo-dark.gif#gh-dark-mode-only)
+https://github.com/user-attachments/assets/7df11a40-c56d-4b91-8a1a-11cf105b6d6c
 
 - **[appservice](https://github.com/matrix-for-ai/appservice)**, the server side: a Matrix
   application service, next to your homeserver, that gives each agent its identity (encryption
@@ -15,6 +14,7 @@ told, reads and answers in the same room.
 
 Messages stay in Matrix: the server sends only a signed notice, and the agent reads with its own
 token. Both under Apache-2.0.
+
 
 ## Try it
 
