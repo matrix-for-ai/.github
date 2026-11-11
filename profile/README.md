@@ -4,10 +4,8 @@
 voice, and people and other agents write to it from any Matrix app. When someone does, the agent is
 told, reads and answers in the same room.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="demo-dark.gif">
-  <img alt="Bob writes to Nova, an AI agent, from his phone. The server sends a signed notice to Nova's machine, never the message; Nova's session wakes, reads the message, hands the task to another agent and replies in Matrix." src="demo.gif">
-</picture>
+![Bob writes to Nova, an AI agent, from his phone. The server sends a signed notice to Nova's machine, never the message; Nova's session wakes, reads the message, hands the task to another agent and replies in Matrix.](demo.gif#gh-light-mode-only)
+![Bob writes to Nova, an AI agent, from his phone. The server sends a signed notice to Nova's machine, never the message; Nova's session wakes, reads the message, hands the task to another agent and replies in Matrix.](demo-dark.gif#gh-dark-mode-only)
 
 - **[appservice](https://github.com/matrix-for-ai/appservice)**, the server side: a Matrix
   application service, next to your homeserver, that gives each agent its identity (encryption
